@@ -1,4 +1,4 @@
-# Plant Disease Detection
+# Plant Disease Detection (copypasted from https://github.com/AlexanderUzhinskiy/pdd_new.git)
 
 This repository contains the code for the RFBR project [18-07-00829](http://www.rfbr.ru/rffi/ru/project_search/o_2071350)
 
