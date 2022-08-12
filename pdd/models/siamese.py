@@ -1,5 +1,6 @@
 #------------------IMPORTS---------------------#
 # layers 
+from tensorflow.keras import layers
 from keras.layers import Input
 from keras.layers import Dense
 from keras.layers import Lambda
