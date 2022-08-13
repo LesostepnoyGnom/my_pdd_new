@@ -38,7 +38,7 @@ def conv_block(n_filters,
 
 
 def get_feature_extractor(input_shape):
-    inputs = Input(shape=input_shape)
+    inputs = Input(input_shape)
     x = conv_block(32, (10, 10), batch_norm=True)(inputs)
     x = conv_block(64, (7, 7), batch_norm=True)(x)
     x = conv_block(128, (5, 5), batch_norm=True)(x)
